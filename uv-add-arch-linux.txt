@@ -1,0 +1,540 @@
+DEBUG uv 0.6.11 (0632e24d1 2025-03-30)
+DEBUG Found project root: `/home/lbakken/development/lukebakken/rabbitmq-amqp-python-client-60`
+DEBUG No workspace root found, using project root
+TRACE Checking lock for `/home/lbakken/development/lukebakken/rabbitmq-amqp-python-client-60` at `/tmp/uv-7f6b55c79423c78f.lock`
+DEBUG Acquired lock for `/home/lbakken/development/lukebakken/rabbitmq-amqp-python-client-60`
+DEBUG Reading Python requests from version file at `/home/lbakken/development/lukebakken/rabbitmq-amqp-python-client-60/.python-version`
+DEBUG Using Python request `3.13` from version file at `.python-version`
+DEBUG Checking for Python environment at `.venv`
+DEBUG Searching for Python 3.13 in managed installations or search path
+DEBUG Searching for managed installations at `/home/lbakken/.local/share/uv/python`
+TRACE Found `ld` path: /lib64/ld-linux-x86-64.so.2
+TRACE stdout output from `ld`: ""
+TRACE stderr output from `ld`: "/lib64/ld-linux-x86-64.so.2: missing program name\nTry '/lib64/ld-linux-x86-64.so.2 --help' for more information.\n"
+TRACE Tried to find musl version by running `"/lib64/ld-linux-x86-64.so.2"`, but failed: Could not find musl version in output of: `/lib64/ld-linux-x86-64.so.2`
+TRACE Tried to find libc version from possible symlink at "/lib64/ld-linux-x86-64.so.2", but failed: Failed to determine libc
+TRACE stdout output from `ldd --version`: "ld.so (GNU libc) stable release version 2.41.\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.\nThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.\n"
+TRACE Found manylinux 2.41 in stdout of `ldd --version`
+TRACE Searching PATH for executables: python3.13, python3, python
+TRACE Checking `PATH` directory for interpreters: /home/lbakken/perl5/bin
+TRACE Checking `PATH` directory for interpreters: /home/lbakken/.cache/rebar3/bin
+TRACE Checking `PATH` directory for interpreters: /home/lbakken/go/bin
+TRACE Checking `PATH` directory for interpreters: /home/lbakken/bin
+TRACE Checking `PATH` directory for interpreters: /home/lbakken/.asdf/shims
+TRACE Found possible Python executable: /home/lbakken/.asdf/shims/python3.13
+TRACE Querying interpreter executable at /home/lbakken/.asdf/shims/python3.13
+DEBUG Found `cpython-3.13.2-linux-x86_64-gnu` at `/home/lbakken/.asdf/shims/python3.13` (first executable in the search path)
+Using CPython 3.13.2 interpreter at: /home/lbakken/.asdf/installs/python/3.13.2/bin/python3.13
+Creating virtual environment at: .venv
+DEBUG Using base executable for virtual environment: /home/lbakken/.asdf/installs/python/3.13.2/bin/python3.13
+DEBUG Released lock at `/tmp/uv-7f6b55c79423c78f.lock`
+DEBUG No changes to dependencies; skipping update
+DEBUG Using request timeout of 30s
+DEBUG Found static `pyproject.toml` for: rabbitmq-amqp-python-client-60 @ file:///home/lbakken/development/lukebakken/rabbitmq-amqp-python-client-60
+DEBUG No workspace root found, using project root
+DEBUG Existing `uv.lock` satisfies workspace requirements
+Resolved 7 packages in 0.47ms
+DEBUG Using request timeout of 30s
+DEBUG Identified uncached distribution: rabbitmq-amqp-python-client==0.1.0b3
+DEBUG Identified uncached distribution: pyjwt==2.10.1
+DEBUG Identified uncached distribution: python-qpid-proton==0.39.0
+DEBUG Identified uncached distribution: typing-extensions==4.13.0
+DEBUG Identified uncached distribution: cffi==1.17.1
+DEBUG Identified uncached distribution: pycparser==2.22
+TRACE Checking lock for `/home/lbakken/.cache/uv/sdists-v9/pypi/python-qpid-proton/0.39.0` at `/home/lbakken/.cache/uv/sdists-v9/pypi/python-qpid-proton/0.39.0/.lock`
+DEBUG Acquired lock for `/home/lbakken/.cache/uv/sdists-v9/pypi/python-qpid-proton/0.39.0`
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/cffi/1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/rabbitmq-amqp-python-client/0.1.0b3-py3-none-any.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/pycparser/2.22-py3-none-any.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/typing-extensions/4.13.0-py3-none-any.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/pyjwt/2.10.1-py3-none-any.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl
+TRACE No cache entry exists for /home/lbakken/.cache/uv/sdists-v9/pypi/python-qpid-proton/0.39.0/revision.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz
+TRACE Handling request for https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz
+TRACE Cached request https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://files.pythonhosted.org/packages/61/ad/689f02752eeec26aed679477e80e632ef1b682313be70793d798c1d5fc8f/PyJWT-2.10.1-py3-none-any.whl is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://files.pythonhosted.org/packages/a7/ec/b5f95170e2cb21c295b6b07780be095071414dd6d38703abc3c0cec3f6e1/python-qpid-proton-0.39.0.tar.gz is storable because its response has a 'public' cache-control directive
+DEBUG Downloading source distribution: python-qpid-proton==0.39.0
+TRACE Cached request https://files.pythonhosted.org/packages/5a/7c/ed0facb86c887cb12feb7406e3592f91c3e3f8d56d37a191b0e58f71e133/rabbitmq_amqp_python_client-0.1.0b3-py3-none-any.whl is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl is storable because its response has a 'public' cache-control directive
+   Building python-qpid-proton==0.39.0
+DEBUG Building: python-qpid-proton==0.39.0
+TRACE Preview is disabled, not checking for direct build
+DEBUG Using base executable for virtual environment: /home/lbakken/.asdf/installs/python/3.13.2/bin/python3.13
+DEBUG Ignoring empty directory
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.13.2
+DEBUG Solving with target Python version: >=3.13.2
+TRACE Assigned packages: 
+TRACE Chose package for decision: root. remaining choices: 
+DEBUG Adding direct dependency: setuptools*
+DEBUG Adding direct dependency: cffi>=1.0.0
+TRACE Fetching metadata for setuptools from https://pypi.org/simple/setuptools/
+TRACE Fetching metadata for cffi from https://pypi.org/simple/cffi/
+TRACE No cache entry exists for /home/lbakken/.cache/uv/simple-v15/pypi/setuptools.rkyv
+DEBUG No cache entry for: https://pypi.org/simple/setuptools/
+TRACE Assigned packages: root==0a0.dev0
+TRACE Sending fresh GET request for https://pypi.org/simple/setuptools/
+TRACE Chose package for decision: setuptools. remaining choices: cffi
+TRACE Handling request for https://pypi.org/simple/setuptools/ with authentication policy auto
+TRACE Request for https://pypi.org/simple/setuptools/ is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://pypi.org/simple/setuptools/
+TRACE Attempting unauthenticated request for https://pypi.org/simple/setuptools/
+TRACE No cache entry exists for /home/lbakken/.cache/uv/simple-v15/pypi/cffi.rkyv
+DEBUG No cache entry for: https://pypi.org/simple/cffi/
+TRACE Sending fresh GET request for https://pypi.org/simple/cffi/
+TRACE Handling request for https://pypi.org/simple/cffi/ with authentication policy auto
+TRACE Request for https://pypi.org/simple/cffi/ is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://pypi.org/simple/cffi/
+TRACE Attempting unauthenticated request for https://pypi.org/simple/cffi/
+TRACE Cached request https://pypi.org/simple/cffi/ is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://pypi.org/simple/setuptools/ is storable because its response has a 'public' cache-control directive
+WARN Skipping file for setuptools: setuptools-0.6b1-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6b1-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6b2-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6b2-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6b3-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6b3-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6b4-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6b4-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c1-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c1-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c10-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c10-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c10-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c10-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c10-py2.6.egg
+WARN Skipping file for setuptools: setuptools-0.6c10.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c10.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c10.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c10.win32-py2.6.exe
+WARN Skipping file for setuptools: setuptools-0.6c11-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c11-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c11-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c11-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c11-py2.6.egg
+WARN Skipping file for setuptools: setuptools-0.6c11-py2.7.egg
+WARN Skipping file for setuptools: setuptools-0.6c11.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c11.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c11.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c11.win32-py2.6.exe
+WARN Skipping file for setuptools: setuptools-0.6c11.win32-py2.7.exe
+WARN Skipping file for setuptools: setuptools-0.6c2-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c2-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c3-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c3-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c3-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c4-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c4-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c4-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c4-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c4.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c4.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c4.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c5-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c5-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c5-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c5-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c5.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c5.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c5.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c6-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c6-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c6-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c6-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c6.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c6.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c6.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c7-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c7-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c7-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c7-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c7.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c7.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c7.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c8-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c8-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c8-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c8-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c8.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c8.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c8.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-0.6c9-1.src.rpm
+WARN Skipping file for setuptools: setuptools-0.6c9-py2.3.egg
+WARN Skipping file for setuptools: setuptools-0.6c9-py2.4.egg
+WARN Skipping file for setuptools: setuptools-0.6c9-py2.5.egg
+WARN Skipping file for setuptools: setuptools-0.6c9-py2.6.egg
+WARN Skipping file for setuptools: setuptools-0.6c9.win32-py2.3.exe
+WARN Skipping file for setuptools: setuptools-0.6c9.win32-py2.4.exe
+WARN Skipping file for setuptools: setuptools-0.6c9.win32-py2.5.exe
+WARN Skipping file for setuptools: setuptools-18.3.1-py3.4.egg
+TRACE Received package metadata for: cffi
+TRACE Selecting candidate for cffi with range >=1.0.0 with 78 remote versions
+TRACE Found candidate for package cffi with range >=1.0.0 after 1 steps: 1.17.1 version
+TRACE Returning candidate for package cffi with range >=1.0.0 after 1 steps
+TRACE Received package metadata for: setuptools
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/cffi/1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.msgpack
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+TRACE Handling request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+TRACE Selecting candidate for setuptools with range * with 600 remote versions
+TRACE Found candidate for package setuptools with range * after 1 steps: 78.1.0 version
+TRACE Returning candidate for package setuptools with range * after 1 steps
+DEBUG Searching for a compatible version of setuptools (*)
+TRACE Selecting candidate for setuptools with range * with 600 remote versions
+TRACE Found candidate for package setuptools with range * after 1 steps: 78.1.0 version
+TRACE Returning candidate for package setuptools with range * after 1 steps
+DEBUG Selecting: setuptools==78.1.0 [compatible] (setuptools-78.1.0-py3-none-any.whl)
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/setuptools/78.1.0-py3-none-any.msgpack
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata
+TRACE Handling request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata
+TRACE Cached request https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl.metadata is storable because its response has a 'public' cache-control directive
+TRACE Cached request https://files.pythonhosted.org/packages/26/9f/1aab65a6c0db35f43c4d1b4f580e8df53914310afc10ae0397d29d697af4/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata is storable because its response has a 'public' cache-control directive
+TRACE Received built distribution metadata for: setuptools==78.1.0
+TRACE Received built distribution metadata for: cffi==1.17.1
+TRACE Assigned packages: root==0a0.dev0, setuptools==78.1.0
+TRACE Chose package for decision: cffi. remaining choices: 
+DEBUG Searching for a compatible version of cffi (>=1.0.0)
+TRACE Selecting candidate for cffi with range >=1.0.0 with 78 remote versions
+TRACE Found candidate for package cffi with range >=1.0.0 after 1 steps: 1.17.1 version
+TRACE Returning candidate for package cffi with range >=1.0.0 after 1 steps
+DEBUG Selecting: cffi==1.17.1 [compatible] (cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for cffi==1.17.1: pycparser*
+TRACE Assigned packages: root==0a0.dev0, setuptools==78.1.0, cffi==1.17.1
+TRACE Chose package for decision: pycparser. remaining choices: 
+TRACE Fetching metadata for pycparser from https://pypi.org/simple/pycparser/
+TRACE No cache entry exists for /home/lbakken/.cache/uv/simple-v15/pypi/pycparser.rkyv
+DEBUG No cache entry for: https://pypi.org/simple/pycparser/
+TRACE Sending fresh GET request for https://pypi.org/simple/pycparser/
+TRACE Handling request for https://pypi.org/simple/pycparser/ with authentication policy auto
+TRACE Request for https://pypi.org/simple/pycparser/ is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://pypi.org/simple/pycparser/
+TRACE Attempting unauthenticated request for https://pypi.org/simple/pycparser/
+TRACE Cached request https://pypi.org/simple/pycparser/ is storable because its response has a 'public' cache-control directive
+TRACE Received package metadata for: pycparser
+TRACE Selecting candidate for pycparser with range * with 22 remote versions
+TRACE Found candidate for package pycparser with range * after 1 steps: 2.22 version
+TRACE Returning candidate for package pycparser with range * after 1 steps
+DEBUG Searching for a compatible version of pycparser (*)
+TRACE Selecting candidate for pycparser with range * with 22 remote versions
+TRACE Found candidate for package pycparser with range * after 1 steps: 2.22 version
+TRACE Returning candidate for package pycparser with range * after 1 steps
+DEBUG Selecting: pycparser==2.22 [compatible] (pycparser-2.22-py3-none-any.whl)
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/pycparser/2.22-py3-none-any.msgpack
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+TRACE Handling request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+TRACE Cached request https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata is storable because its response has a 'public' cache-control directive
+TRACE Received built distribution metadata for: pycparser==2.22
+TRACE Assigned packages: root==0a0.dev0, setuptools==78.1.0, cffi==1.17.1, pycparser==2.22
+DEBUG Tried 3 versions: cffi 1, pycparser 1, setuptools 1
+DEBUG marker environment resolution took 0.218s
+TRACE Resolution: ResolverEnvironment { kind: Specific { marker_env: ResolverMarkerEnvironment(MarkerEnvironment { inner: MarkerEnvironmentInner { implementation_name: "cpython", implementation_version: StringVersion { string: "3.13.2", version: "3.13.2" }, os_name: "posix", platform_machine: "x86_64", platform_python_implementation: "CPython", platform_release: "6.12.21-1-lts", platform_system: "Linux", platform_version: "#1 SMP PREEMPT_DYNAMIC Sat, 29 Mar 2025 06:39:46 +0000", python_full_version: StringVersion { string: "3.13.2", version: "3.13.2" }, python_version: StringVersion { string: "3.13", version: "3.13" }, sys_platform: "linux" } }) } }
+TRACE Resolution edge: ROOT -> setuptools
+TRACE Resolution edge:     0a0.dev0 -> 78.1.0
+TRACE Resolution edge: ROOT -> cffi
+TRACE Resolution edge:     0a0.dev0 -> 1.17.1
+TRACE Resolution edge: cffi -> pycparser
+TRACE Resolution edge:     1.17.1 -> 2.22
+DEBUG Installing in setuptools==78.1.0, cffi==1.17.1, pycparser==2.22 in /home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy
+DEBUG Identified uncached distribution: setuptools==78.1.0
+DEBUG Registry requirement already cached: cffi==1.17.1
+DEBUG Registry requirement already cached: pycparser==2.22
+DEBUG Downloading and building requirement for build: setuptools==78.1.0
+TRACE No cache entry exists for /home/lbakken/.cache/uv/wheels-v5/pypi/setuptools/78.1.0-py3-none-any.http
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl
+TRACE Sending fresh GET request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl
+TRACE Handling request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl with authentication policy auto
+TRACE Request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl is unauthenticated, checking cache
+TRACE No credentials in cache for URL https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl
+TRACE Attempting unauthenticated request for https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl
+TRACE Cached request https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl is storable because its response has a 'public' cache-control directive
+DEBUG Installing build requirements: setuptools==78.1.0, cffi==1.17.1, pycparser==2.22
+TRACE Extracting file name=PackageName("pycparser")
+TRACE Extracting file name=PackageName("cffi")
+TRACE Extracting file name=PackageName("setuptools")
+TRACE Extracted 23 files name=PackageName("pycparser")
+TRACE No entrypoints name=PackageName("pycparser")
+TRACE No data name=PackageName("pycparser")
+TRACE Writing installer metadata name=PackageName("pycparser")
+TRACE Writing record name=PackageName("pycparser")
+TRACE Extracted 29 files name=PackageName("cffi")
+TRACE No entrypoints name=PackageName("cffi")
+TRACE No data name=PackageName("cffi")
+TRACE Writing installer metadata name=PackageName("cffi")
+TRACE Writing record name=PackageName("cffi")
+TRACE Extracted 514 files name=PackageName("setuptools")
+TRACE No entrypoints name=PackageName("setuptools")
+TRACE No data name=PackageName("setuptools")
+TRACE Writing installer metadata name=PackageName("setuptools")
+TRACE Writing record name=PackageName("setuptools")
+DEBUG Creating PEP 517 build environment
+DEBUG Calling `setuptools.build_meta.get_requires_for_build_wheel()`
+DEBUG /home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+DEBUG !!
+DEBUG 
+DEBUG         ********************************************************************************
+DEBUG         Please consider removing the following classifiers in favor of a SPDX license expression:
+DEBUG 
+DEBUG         License :: OSI Approved :: Apache Software License
+DEBUG 
+DEBUG         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+DEBUG         ********************************************************************************
+DEBUG 
+DEBUG !!
+DEBUG   self._finalize_license_expression()
+DEBUG Calling `setuptools.build_meta.build_wheel("/home/lbakken/.cache/uv/builds-v0/.tmpDaHeBi", {}, None)`
+DEBUG /home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+DEBUG !!
+DEBUG 
+DEBUG         ********************************************************************************
+DEBUG         Please consider removing the following classifiers in favor of a SPDX license expression:
+DEBUG 
+DEBUG         License :: OSI Approved :: Apache Software License
+DEBUG 
+DEBUG         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+DEBUG         ********************************************************************************
+DEBUG 
+DEBUG !!
+DEBUG   self._finalize_license_expression()
+DEBUG running bdist_wheel
+DEBUG running build
+DEBUG running build_py
+DEBUG creating build/lib.linux-x86_64-cpython-313
+DEBUG copying cproton.py -> build/lib.linux-x86_64-cpython-313
+DEBUG creating build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_exceptions.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_tracing.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/handlers.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_selectable.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/__init__.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_endpoints.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/reactor.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_handler.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_handlers.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_utils.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_io.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_events.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_common.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_message.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_wrapper.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/tracing.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_delivery.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_transport.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_data.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_reactor.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_condition.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/_url.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG copying proton/utils.py -> build/lib.linux-x86_64-cpython-313/proton
+DEBUG running build_ext
+DEBUG generating cffi module 'build/temp.linux-x86_64-cpython-313/cproton_ffi.c'
+DEBUG creating build/temp.linux-x86_64-cpython-313
+DEBUG building 'cproton_ffi' extension
+DEBUG creating build/temp.linux-x86_64-cpython-313/src/compiler/gcc
+DEBUG creating build/temp.linux-x86_64-cpython-313/src/core
+DEBUG creating build/temp.linux-x86_64-cpython-313/src/core/object
+DEBUG creating build/temp.linux-x86_64-cpython-313/src/sasl
+DEBUG creating build/temp.linux-x86_64-cpython-313/src/ssl
+DEBUG creating build/temp.linux-x86_64-cpython-313/build/temp.linux-x86_64-cpython-313
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/compiler/gcc/start.c -o build/temp.linux-x86_64-cpython-313/src/compiler/gcc/start.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/autodetect.c -o build/temp.linux-x86_64-cpython-313/src/core/autodetect.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/buffer.c -o build/temp.linux-x86_64-cpython-313/src/core/buffer.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/codec.c -o build/temp.linux-x86_64-cpython-313/src/core/codec.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/connection_driver.c -o build/temp.linux-x86_64-cpython-313/src/core/connection_driver.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/decoder.c -o build/temp.linux-x86_64-cpython-313/src/core/decoder.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/dispatcher.c -o build/temp.linux-x86_64-cpython-313/src/core/dispatcher.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/encoder.c -o build/temp.linux-x86_64-cpython-313/src/core/encoder.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/engine.c -o build/temp.linux-x86_64-cpython-313/src/core/engine.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/error.c -o build/temp.linux-x86_64-cpython-313/src/core/error.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/event.c -o build/temp.linux-x86_64-cpython-313/src/core/event.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/frame_consumers.c -o build/temp.linux-x86_64-cpython-313/src/core/frame_consumers.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/frame_generators.c -o build/temp.linux-x86_64-cpython-313/src/core/frame_generators.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/framing.c -o build/temp.linux-x86_64-cpython-313/src/core/framing.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/init.c -o build/temp.linux-x86_64-cpython-313/src/core/init.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/log.c -o build/temp.linux-x86_64-cpython-313/src/core/log.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/logger.c -o build/temp.linux-x86_64-cpython-313/src/core/logger.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/memory.c -o build/temp.linux-x86_64-cpython-313/src/core/memory.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/message.c -o build/temp.linux-x86_64-cpython-313/src/core/message.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/iterator.c -o build/temp.linux-x86_64-cpython-313/src/core/object/iterator.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/list.c -o build/temp.linux-x86_64-cpython-313/src/core/object/list.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/map.c -o build/temp.linux-x86_64-cpython-313/src/core/object/map.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/object.c -o build/temp.linux-x86_64-cpython-313/src/core/object/object.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/record.c -o build/temp.linux-x86_64-cpython-313/src/core/object/record.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/object/string.c -o build/temp.linux-x86_64-cpython-313/src/core/object/string.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/transport.c -o build/temp.linux-x86_64-cpython-313/src/core/transport.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/types.c -o build/temp.linux-x86_64-cpython-313/src/core/types.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/util.c -o build/temp.linux-x86_64-cpython-313/src/core/util.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/core/value_dump.c -o build/temp.linux-x86_64-cpython-313/src/core/value_dump.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/sasl/cyrus_sasl.c -o build/temp.linux-x86_64-cpython-313/src/sasl/cyrus_sasl.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/sasl/default_sasl.c -o build/temp.linux-x86_64-cpython-313/src/sasl/default_sasl.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/sasl/sasl.c -o build/temp.linux-x86_64-cpython-313/src/sasl/sasl.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c ./src/ssl/openssl.c -o build/temp.linux-x86_64-cpython-313/src/ssl/openssl.o -std=c99
+DEBUG gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -DPROTON_DECLARE_STATIC -I./include -I./src -I/home/lbakken/.cache/uv/builds-v0/.tmpN4pHxy/include -I/home/lbakken/.asdf/installs/python/3.13.2/include/python3.13 -c build/temp.linux-x86_64-cpython-313/cproton_ffi.c -o build/temp.linux-x86_64-cpython-313/build/temp.linux-x86_64-cpython-313/cproton_ffi.o -std=c99
+DEBUG gcc -shared -L/home/lbakken/.asdf/installs/python/3.13.2/lib -Wl,-rpath,/home/lbakken/.asdf/installs/python/3.13.2/lib -L/home/lbakken/.asdf/installs/python/3.13.2/lib -Wl,-rpath,/home/lbakken/.asdf/installs/python/3.13.2/lib build/temp.linux-x86_64-cpython-313/src/compiler/gcc/start.o build/temp.linux-x86_64-cpython-313/src/core/autodetect.o build/temp.linux-x86_64-cpython-313/src/core/buffer.o build/temp.linux-x86_64-cpython-313/src/core/codec.o build/temp.linux-x86_64-cpython-313/src/core/connection_driver.o build/temp.linux-x86_64-cpython-313/src/core/decoder.o build/temp.linux-x86_64-cpython-313/src/core/dispatcher.o build/temp.linux-x86_64-cpython-313/src/core/encoder.o build/temp.linux-x86_64-cpython-313/src/core/engine.o build/temp.linux-x86_64-cpython-313/src/core/error.o build/temp.linux-x86_64-cpython-313/src/core/event.o build/temp.linux-x86_64-cpython-313/src/core/frame_consumers.o build/temp.linux-x86_64-cpython-313/src/core/frame_generators.o build/temp.linux-x86_64-cpython-313/src/core/framing.o build/temp.linux-x86_64-cpython-313/src/core/init.o build/temp.linux-x86_64-cpython-313/src/core/log.o build/temp.linux-x86_64-cpython-313/src/core/logger.o build/temp.linux-x86_64-cpython-313/src/core/memory.o build/temp.linux-x86_64-cpython-313/src/core/message.o build/temp.linux-x86_64-cpython-313/src/core/object/iterator.o build/temp.linux-x86_64-cpython-313/src/core/object/list.o build/temp.linux-x86_64-cpython-313/src/core/object/map.o build/temp.linux-x86_64-cpython-313/src/core/object/object.o build/temp.linux-x86_64-cpython-313/src/core/object/record.o build/temp.linux-x86_64-cpython-313/src/core/object/string.o build/temp.linux-x86_64-cpython-313/src/core/transport.o build/temp.linux-x86_64-cpython-313/src/core/types.o build/temp.linux-x86_64-cpython-313/src/core/util.o build/temp.linux-x86_64-cpython-313/src/core/value_dump.o build/temp.linux-x86_64-cpython-313/src/sasl/cyrus_sasl.o build/temp.linux-x86_64-cpython-313/src/sasl/default_sasl.o build/temp.linux-x86_64-cpython-313/src/sasl/sasl.o build/temp.linux-x86_64-cpython-313/src/ssl/openssl.o build/temp.linux-x86_64-cpython-313/build/temp.linux-x86_64-cpython-313/cproton_ffi.o -L/home/lbakken/.asdf/installs/python/3.13.2/lib -lssl -lcrypto -lsasl2 -o build/lib.linux-x86_64-cpython-313/cproton_ffi.abi3.so
+DEBUG installing to build/bdist.linux-x86_64/wheel
+DEBUG running install
+DEBUG running install_lib
+DEBUG creating build/bdist.linux-x86_64/wheel
+DEBUG copying build/lib.linux-x86_64-cpython-313/cproton_ffi.abi3.so -> build/bdist.linux-x86_64/wheel/.
+DEBUG creating build/bdist.linux-x86_64/wheel/proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_common.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_handlers.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/tracing.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/utils.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_exceptions.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_selectable.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_handler.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_data.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_endpoints.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/__init__.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/handlers.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_tracing.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_utils.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_url.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_condition.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/reactor.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_reactor.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_transport.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_io.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_events.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_wrapper.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_message.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/proton/_delivery.py -> build/bdist.linux-x86_64/wheel/./proton
+DEBUG copying build/lib.linux-x86_64-cpython-313/cproton.py -> build/bdist.linux-x86_64/wheel/.
+DEBUG running install_egg_info
+DEBUG running egg_info
+DEBUG writing python_qpid_proton.egg-info/PKG-INFO
+DEBUG writing dependency_links to python_qpid_proton.egg-info/dependency_links.txt
+DEBUG writing requirements to python_qpid_proton.egg-info/requires.txt
+DEBUG writing top-level names to python_qpid_proton.egg-info/top_level.txt
+DEBUG reading manifest file 'python_qpid_proton.egg-info/SOURCES.txt'
+DEBUG reading manifest template 'MANIFEST.in'
+DEBUG warning: no previously-included files matching '*.pyc' found anywhere in distribution
+DEBUG warning: no previously-included files matching '*.pyo' found anywhere in distribution
+DEBUG writing manifest file 'python_qpid_proton.egg-info/SOURCES.txt'
+DEBUG Copying python_qpid_proton.egg-info to build/bdist.linux-x86_64/wheel/./python_qpid_proton-0.39.0-py3.13.egg-info
+DEBUG running install_scripts
+DEBUG creating build/bdist.linux-x86_64/wheel/python_qpid_proton-0.39.0.dist-info/WHEEL
+DEBUG creating '/home/lbakken/.cache/uv/builds-v0/.tmpDaHeBi/.tmp-2qqu61i_/python_qpid_proton-0.39.0-cp313-cp313-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+DEBUG adding 'cproton.py'
+DEBUG adding 'cproton_ffi.abi3.so'
+DEBUG adding 'proton/__init__.py'
+DEBUG adding 'proton/_common.py'
+DEBUG adding 'proton/_condition.py'
+DEBUG adding 'proton/_data.py'
+DEBUG adding 'proton/_delivery.py'
+DEBUG adding 'proton/_endpoints.py'
+DEBUG adding 'proton/_events.py'
+DEBUG adding 'proton/_exceptions.py'
+DEBUG adding 'proton/_handler.py'
+DEBUG adding 'proton/_handlers.py'
+DEBUG adding 'proton/_io.py'
+DEBUG adding 'proton/_message.py'
+DEBUG adding 'proton/_reactor.py'
+DEBUG adding 'proton/_selectable.py'
+DEBUG adding 'proton/_tracing.py'
+DEBUG adding 'proton/_transport.py'
+DEBUG adding 'proton/_url.py'
+DEBUG adding 'proton/_utils.py'
+DEBUG adding 'proton/_wrapper.py'
+DEBUG adding 'proton/handlers.py'
+DEBUG adding 'proton/reactor.py'
+DEBUG adding 'proton/tracing.py'
+DEBUG adding 'proton/utils.py'
+DEBUG adding 'python_qpid_proton-0.39.0.dist-info/METADATA'
+DEBUG adding 'python_qpid_proton-0.39.0.dist-info/WHEEL'
+DEBUG adding 'python_qpid_proton-0.39.0.dist-info/top_level.txt'
+DEBUG adding 'python_qpid_proton-0.39.0.dist-info/RECORD'
+DEBUG removing build/bdist.linux-x86_64/wheel
+DEBUG Finished building: python-qpid-proton==0.39.0
+      Built python-qpid-proton==0.39.0
+DEBUG Released lock at `/home/lbakken/.cache/uv/sdists-v9/pypi/python-qpid-proton/0.39.0/.lock`
+Prepared 6 packages in 17.51s
+TRACE Extracting file name=PackageName("cffi")
+TRACE Extracting file name=PackageName("rabbitmq-amqp-python-client")
+TRACE Extracting file name=PackageName("typing-extensions")
+TRACE Extracting file name=PackageName("pyjwt")
+TRACE Extracting file name=PackageName("python-qpid-proton")
+TRACE Extracting file name=PackageName("pycparser")
+TRACE Extracted 5 files name=PackageName("typing-extensions")
+TRACE No entrypoints name=PackageName("typing-extensions")
+TRACE No data name=PackageName("typing-extensions")
+TRACE Writing installer metadata name=PackageName("typing-extensions")
+TRACE Extracted 19 files name=PackageName("pyjwt")
+TRACE No entrypoints name=PackageName("pyjwt")
+TRACE No data name=PackageName("pyjwt")
+TRACE Writing installer metadata name=PackageName("pyjwt")
+TRACE Extracted 23 files name=PackageName("pycparser")
+TRACE Extracted 45 files name=PackageName("rabbitmq-amqp-python-client")
+TRACE No entrypoints name=PackageName("pycparser")
+TRACE Extracted 29 files name=PackageName("cffi")
+TRACE No data name=PackageName("pycparser")
+TRACE Writing installer metadata name=PackageName("pycparser")
+TRACE Writing record name=PackageName("pyjwt")
+TRACE Writing record name=PackageName("typing-extensions")
+TRACE Extracted 29 files name=PackageName("python-qpid-proton")
+TRACE No entrypoints name=PackageName("rabbitmq-amqp-python-client")
+TRACE No entrypoints name=PackageName("cffi")
+TRACE No data name=PackageName("rabbitmq-amqp-python-client")
+TRACE Writing installer metadata name=PackageName("rabbitmq-amqp-python-client")
+TRACE No data name=PackageName("cffi")
+TRACE Writing installer metadata name=PackageName("cffi")
+TRACE No entrypoints name=PackageName("python-qpid-proton")
+TRACE No data name=PackageName("python-qpid-proton")
+TRACE Writing installer metadata name=PackageName("python-qpid-proton")
+TRACE Writing record name=PackageName("pycparser")
+TRACE Writing record name=PackageName("rabbitmq-amqp-python-client")
+TRACE Writing record name=PackageName("cffi")
+TRACE Writing record name=PackageName("python-qpid-proton")
+Installed 6 packages in 2ms
+ + cffi==1.17.1
+ + pycparser==2.22
+ + pyjwt==2.10.1
+ + python-qpid-proton==0.39.0
+ + rabbitmq-amqp-python-client==0.1.0b3
+ + typing-extensions==4.13.0
